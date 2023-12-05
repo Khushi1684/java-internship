@@ -8,7 +8,7 @@ import java.util.Scanner;
             if(pin!=1234)System.out.println("Check your pin...");
             System.out.println("Enter the amount ");
             int amount=sc.nextInt();
-            System.out.println("Enter the choice \n1.Withdrawl\n2.Balance\n3.Deposit");
+            System.out.println("Enter the choice \n1.Withdrawl\n2.Balance\n3.Deposit\n4.Quit");
             int choice=sc.nextInt();
             
             switch(choice)
